@@ -17,7 +17,7 @@ function Header() {
     <header>
       <div className="header-left">
         <HighlightIcon />
-        <h1>Keeper</h1>
+        <h1>Keeper (Clone of Google Keep)</h1>
       </div>
 
       <div className="header-right">
