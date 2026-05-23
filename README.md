@@ -1,4 +1,4 @@
-# 📝 Keeper App — Full Stack
+# 📝 Keeper App — Full Stack Project
 
 A full-stack Google Keep-inspired note-taking app with **Authentication** and **PostgreSQL** database.
 
@@ -136,26 +136,26 @@ Visit: **http://localhost:5173**
 
 ## 📡 API Endpoints
 
-| Method | Route | Auth | Description |
-|--------|-------|------|-------------|
-| POST | `/api/auth/register` | ❌ | Register with email |
-| POST | `/api/auth/login` | ❌ | Login with email |
-| POST | `/api/auth/google` | ❌ | Google Sign-In |
-| GET | `/api/auth/me` | ✅ | Get current user |
-| GET | `/api/notes` | ✅ | Get all notes |
-| POST | `/api/notes` | ✅ | Create a note |
-| PUT | `/api/notes/:id` | ✅ | Update a note |
-| DELETE | `/api/notes/:id` | ✅ | Delete a note |
+| Method | Route                | Auth | Description         |
+| ------ | -------------------- | ---- | ------------------- |
+| POST   | `/api/auth/register` | ❌   | Register with email |
+| POST   | `/api/auth/login`    | ❌   | Login with email    |
+| POST   | `/api/auth/google`   | ❌   | Google Sign-In      |
+| GET    | `/api/auth/me`       | ✅   | Get current user    |
+| GET    | `/api/notes`         | ✅   | Get all notes       |
+| POST   | `/api/notes`         | ✅   | Create a note       |
+| PUT    | `/api/notes/:id`     | ✅   | Update a note       |
+| DELETE | `/api/notes/:id`     | ✅   | Delete a note       |
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Layer | Technology |
-|---|---|
-| Frontend | React 18, Vite, React Router v6 |
-| UI | Material UI v5, Google Fonts |
-| Auth (client) | @react-oauth/google, JWT in localStorage |
-| Backend | Node.js, Express |
-| Database | PostgreSQL (via `pg`) |
+| Layer         | Technology                                |
+| ------------- | ----------------------------------------- |
+| Frontend      | React 18, Vite, React Router v6           |
+| UI            | Material UI v5, Google Fonts              |
+| Auth (client) | @react-oauth/google, JWT in localStorage  |
+| Backend       | Node.js, Express                          |
+| Database      | PostgreSQL (via `pg`)                     |
 | Auth (server) | bcrypt, jsonwebtoken, google-auth-library |
