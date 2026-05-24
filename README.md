@@ -21,7 +21,6 @@ A full-stack Google Keep-inspired note-taking app with **Authentication** and **
 - 🎞️ **Expand animation** on note input
 - 👤 **User avatar** and name shown in header
 - 🚪 **Logout** button
-- 🛡️ Protected routes — only logged-in users see notes
 
 ---
 
